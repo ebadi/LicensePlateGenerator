@@ -26,7 +26,7 @@ for i in range(1,10):
 	draw.text(pos1, part1, fill=color, font=font)
 	pos2= (1180, 850)
 	draw.text(pos2, part2, fill=color, font=font)
-	image.save('licenseplate_' + str(i) + '_' + part1 + '_' + part2 + '.png')
+	image.save('output/' + str(i) + '_' + part1 + '_' + part2 + '.png')
 
 	##########################################################
 	#image = Image.open('resources/CZ-number-plate-2004-US.png')
